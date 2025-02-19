@@ -113,6 +113,7 @@ section .topo-do-site .flex {
 }
 
 .topo-do-site .img-topo-site img{
+    width: 550px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 
@@ -161,7 +162,7 @@ h2.titulo span{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #058902
+    color: #ffffff
 }
 
 .especialidades .especialidades-box h3{
@@ -204,7 +205,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     margin: 10px 5px;
@@ -216,6 +217,7 @@ section.sobre .flex{
     transition: .2s;
 }
 
+/*Estilo-Projetos*/
 
 section.projetos{
     padding: 80px 4%;
@@ -224,6 +226,7 @@ section.projetos{
     align-content: center;
 
 }
+
 
 section.projetos .flex{
     margin-top: 60px;
@@ -264,6 +267,12 @@ section.projetos .flex{
 
 .overlay:hover{
     opacity: 1;
+}
+
+.overlay a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 section .formulario{
@@ -316,5 +325,40 @@ form .btn-enviar input[type=submit]{
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
+    margin-bottom: 50px;
 }
 
+
+/*Estilo-Rodapé*/
+
+footer{
+    padding: 60px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .logo-footer img{
+    width: 150px;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+footer .line-footer p{
+    color: #06D001;
+}
+
+footer .line-footer p i{
+    color: #06D001;
+    font-size: 22px;
+    gap: 10px;
+}
+
+footer .line-footer p a{
+    gap: 10px;
+    color: #aaa;
+    font-size: 22px;
+}

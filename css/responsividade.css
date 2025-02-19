@@ -1,0 +1,51 @@
+@media screen and (max-width: 1020px) {
+
+    /*Classe geral*/
+    .flex{
+        flex-direction: column;
+    }
+
+    /*Cabeçalho */
+    .menu-desktop ,  .btn-contato{
+        display: none;
+    }
+
+    section .topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site {
+        margin: auto;
+    }
+
+     /*Topo do site*/
+     .topo-do-site h1{
+        margin-top: 0px;
+        font-size: 35px;
+        margin: 15px;
+    }
+
+    .topo-do-site p{
+        font-size: 25px;
+        margin: 15px;
+    }
+
+    .topo-do-site img{
+        align-items: left;
+        justify-content: left;
+        width: 400px;
+        height: auto;
+    }
+
+    .topo-do-site .txt-topo-site{
+        padding-top: 10px;
+    }
+    
+    section .sobre .txt-sobre p{   
+        font-size: 15px;
+        margin: 15px; 
+        line-height: 2px;
+    
+    }
+    
+}
