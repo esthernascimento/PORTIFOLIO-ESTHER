@@ -27,15 +27,22 @@ Meu nome é Esther Nascimento, sou desenvolvedora front-end e estudante de progr
 ## 🏆 Projetos
 
 Aqui estão alguns dos meus projetos desenvolvidos:
-Site de uma sorveteria
-Projetinho de cards
-Projeto de posicionamento de cards do Super Mario
+- **Site de uma sorveteria**
+- **Projetinho de cards**
+- **Projeto de posicionamento de cards do Super Mario**
 
 
 Acesse a aba "Projetos" para ver mais detalhes!
 
 ---
 
+## ⚡ Acesso ao Site  
+
+O projeto está disponível aqui no link abaixo:  
+
+🔗 [Portifólio Esther][(https://esthernascimento.github.io/SORVETERIA-CLODO/)](https://esthernascimento.github.io/PORTIFOLIO-ESTHER/)  
+
+---
 ## 📩 Fale Comigo
 
 Quer entrar em contato? Preencha o formulário na seção "Fale Comigo" ou envie um e-mail para **esthersolzinhacarambola@gmail.com**. Estou disponível para parcerias, freelas e novas oportunidades!
