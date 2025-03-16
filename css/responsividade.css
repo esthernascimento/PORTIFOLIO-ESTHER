@@ -5,47 +5,147 @@
         flex-direction: column;
     }
 
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo{
+        font-size: 28px;
+        line-height: 40px;
+     }
+
     /*Cabeçalho */
     .menu-desktop ,  .btn-contato{
         display: none;
     }
 
-    section .topo-do-site{
+    section.topo-do-site{
         padding: 20px 8%;
+        display: flex;
+        text-align: center;
     }
 
-    .topo-do-site {
-        margin: auto;
-    }
 
      /*Topo do site*/
+
+    .topo-do-site.txt-topo-site{
+        padding: none;
+        gap: 0px;
+    }
+
      .topo-do-site h1{
-        margin-top: 0px;
+        padding: auto;
         font-size: 35px;
-        margin: 15px;
+        margin-top: 0px;
+        margin: 10px;
+        text-align: left;
     }
 
     .topo-do-site p{
-        font-size: 25px;
-        margin: 15px;
+        font-size: 20px;
+        margin: 10px;
+        line-height: 40px;
+        text-align: left;
     }
 
-    .topo-do-site img{
-        align-items: left;
-        justify-content: left;
-        width: 400px;
+  
+    .topo-do-site .img-topo-site img{
+        max-width: 300px;
         height: auto;
+  
+}
+
+    /*Sobre*/
+
+    section.sobre .txt-sobre h2{   
+    font-size: 35px;
+    text-align: left;
+    line-height: 40px;
+}
+
+    section.sobre .txt-sobre p{   
+        font-size: 18px;
+        margin: 10px; 
+        line-height: 25px;
+    
     }
 
-    .topo-do-site .txt-topo-site{
-        padding-top: 10px;
+    section.sobre .btn-social{
+        text-align: center;
+    }
+
+
+     /*Especialidades*/
+
+     section.especialidades h2{
+        font-size: 35px;
+        text-align: left;
+        margin: 30px;
+     }
+     section.especialidades .flex{
+        padding: 40px 8%;
+     }
+
+     section.especialidades .especialidades-box{
+        line-height: 25px;
+     }
+
+
+
+    /*Sobre*/
+
+
+    section.sobre{
+        padding: 80px 8%;
+        margin: 30px;
+    }
+
+    .sobre .txt-sobre h2{
+        gap: 30px;
+        font-size: 28px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .sobre .txt-sobre p{
+        line-height: 20px;
+        font-size: 25px;
+
+    }
+
+    .img-sobre .foto-sorriso{
+        max-width: 350px;
+
+}
+
+    /*Projetos*/
+
+    section.projetos{
+        padding: 80px 8%;
+    }
+
+    section.projetos .flex{
+        gap: 60px;
+    }
+
+    .img-port{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .formulario form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
-    section .sobre .txt-sobre p{   
-        font-size: 15px;
-        margin: 15px; 
-        line-height: 2px;
-    
+    form input, form textarea{
+        max-width: 80%;
     }
-    
+
+    footer .line-footer{
+        text-align: center;
+    }
 }

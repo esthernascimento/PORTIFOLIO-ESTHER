@@ -113,7 +113,8 @@ section .topo-do-site .flex {
 }
 
 .topo-do-site .img-topo-site img{
-    width: 550px;
+    margin-top: 60px;
+    width: 400px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 
