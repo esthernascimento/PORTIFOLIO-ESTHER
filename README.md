@@ -40,7 +40,7 @@ Acesse a aba "Projetos" para ver mais detalhes!
 
 O projeto está disponível aqui no link abaixo:  
 
-🔗 [Portifólio Esther][(https://esthernascimento.github.io/SORVETERIA-CLODO/)](https://esthernascimento.github.io/PORTIFOLIO-ESTHER/)  
+🔗 [Portifólio Esther][(https://esthernascimento.github.io/PORTIFOLIO-ESTHER/)](https://esthernascimento.github.io/PORTIFOLIO-ESTHER/)  
 
 ---
 ## 📩 Fale Comigo
