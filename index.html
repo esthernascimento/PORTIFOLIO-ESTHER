@@ -4,273 +4,383 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="shortcut icon" href="./img/iconcoracao.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/responsividade.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-
-    <title>Esther</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <title>Esther Nascimento | Portfólio</title>
 </head>
 
 <body>
+    <!-- Cabeçalho portifólio -->
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logodjthee.png" class="djtheelogo" alt="Logo Dj Theé">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#inicio">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projetos">Projetos</a>
+                            </li>
 
-    <!--Cabeçalho portifólio-->
-    <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <img src="./img/logodjthee.png" class="djtheelogo" alt="Logo Dj Theé">
-                </a>
-            </div>
-
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#especialidades">Especialidade</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                </ul>
+                        </ul>
+                        <div class="btn-contato ms-lg-3">
+                            <a href="#contato">
+                                <button>Contato</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </nav>
-
-            <div class="btn-contato">
-                <a href="#">
-                    <button>Contato</button>
-                </a>
-            </div>
         </div>
     </header>
-    <!--FIM Cabeçalho portifólio-->
 
-    <!--Topo do Site-->
+    <!-- Topo do Site -->
     <main>
         <section class="topo-do-site" id="inicio">
-            <div class="interface">
-                <div class="flex">
-
-                    <!--Texto criativo-->
-                    <div class="txt-topo-site">
-                        <h1>CRIATIVIDADE, PAIXÃO E DEDICAÇÃO POR INOVAÇÃO<span>.</span></h1>
-                        <p>Programadora júnior com espírito criativo, focada em transformar
-                            ideias em projetos funcionais e visualmente impactantes.</p>
-
-                        <div class="btn-contato">
-                            <a href="#">
-                                <button>Entre em Contato</button>
-                            </a>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="txt-topo-site">
+                            <h1>CRIATIVIDADE, PAIXÃO E DEDICAÇÃO POR INOVAÇÃO<span>.</span></h1>
+                            <p>Programadora júnior com espírito criativo, focada em transformar
+                                ideias em projetos funcionais e visualmente impactantes.</p>
+                            <div class="d-flex gap-3 mt-4">
+                                <div class="btn-contato">
+                                    <a href="#contato">
+                                        <button>Entre em Contato</button>
+                                    </a>
+                                </div>
+                                <div class="btn-cv">
+                                    <a href="#" download>
+                                        <button><i class="bi bi-download me-2"></i>Baixar CV</button>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-                    <!--Foto Esther-->
-                    <div class="img-topo-site">
-                        <img src="./img/circulo.PNG" alt="Foto Esther Nascimento">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Section Especialidades-->
-        <section class="especialidades" id="especialidades">
-            <div class="interface">
-                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
-                <div class="flex">
-
-                    <!--BOX Especialidades-->
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-slash"></i>
-
-                        <h3>Website</h3>
-                        <p>Conjunto de páginas web interligadas via navegador.</p>
-                    </div>
-
-                    <div class="especialidades-box">
-                        <i class="bi bi-headset"></i>
-
-                        <h3>Loja Online</h3>
-                        <p>Um site que permite a compra e venda de produtos e serviços pela internet.</p>
-                    </div>
-
-                    <div class="especialidades-box">
-                        <i class="bi bi-film"></i>
-
-                        <h3>Blog Pessoal</h3>
-                        <p>Conteúdo frequentemente atualizado sobre um ou múltiplos tópicos.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!--Section Sobre-->
-        <section class="sobre" id="sobre">
-            <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img src="./img/fotosorriso.jpeg" class="foto-sorriso">
-                    </div>
-
-                    <div class="txt-sobre">
-                        <h2>SOU ESTHER NASCIMENTO <span>E TRANSFORMO IDEIAS EM CÓDIGO!</span></h2>
-
-                        <p>Sou uma desenvolvedora criativa que une tecnologia, arte e música para transformar ideias em
-                            realidade. Desde que entrei no mundo da programação, venho explorando o front-end para criar
-                            experiências visuais envolventes e funcionais. Combinando meu olhar artístico e minha
-                            experiência com design, busco desenvolver interfaces intuitivas e dinâmicas que contam
-                            histórias e conectam pessoas.</p>
-
-                        <p>Além da programação, minha trajetória passa pela música, administração e criação de
-                            conteúdo. Toco diversos instrumentos, componho e já atuei em publicidades, o que me deu um
-                            olhar versátil e inovador para resolver problemas. Acredito que a tecnologia pode ser uma
-                            ferramenta poderosa para a criatividade, e estou sempre em busca de novos desafios para
-                            aprimorar minhas habilidades e criar projetos impactantes.
-                        </p>
-
-                        <div class="btn-social">
-                            <a href="https://www.instagram.com/esthernascimentooficial"><button><i
-                                        class="bi bi-instagram"></i></button></a>
-                            <a href="https://www.youtube.com/@esthernascimentooficial""><button><i class=" bi
-                                bi-youtube"></i></button></a>
-                            <a href="https://www.linkedin.com/in/esthernascimentooficial"><button><i
-                                        class="bi bi-linkedin"></i></button></a>
-                            <a href="https://github.com/esthernascimento"><button><i
-                                        class="bi bi-github"></i></button></a>
-
+                    <div class="col-lg-6 text-center">
+                        <div class="img-topo-site">
+                            <img src="./img/circulo.PNG" alt="Foto Esther Nascimento" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--Section Projetos-->
-        <section class="projetos" id="projetos">
-            <div class="interface">
-
-                <h2 class="titulo">MEUS<span> PROJETOS.</span></h2>
-
-                <div class="flex">
-                    
-                    <div class="img-port" style="background-image: url(./img/sorveteria-clodo.png);">
-                      
-
-                        <div class="overlay">
-                            <a href="https://esthernascimento.github.io/SORVETERIA-CLODO/">
-                            Sorveteria do Clodo.
-                            </a>
+        <!-- Tecnologias -->
+        <section class="tecnologias py-5" id="tecnologias">
+            <div class="container">
+                <h2 class="titulo text-center mb-5">MINHAS <span>TECNOLOGIAS.</span></h2>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-php-plain"></i>
+                            <h3>PHP</h3>
                         </div>
-
                     </div>
-                    <div class="img-port" style="background-image: url(./img/mariopagina.png);">
-
-                        <div class="overlay">
-                            <a href="https://esthernascimento.github.io/SUPER-MARIO-CARDS/">
-                                Cards Super Mario.
-                            </a>
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-laravel-plain-wordmark"></i>
+                            <h3>Laravel</h3>
                         </div>
-
                     </div>
-                    <div class="img-port" style="background-image: url(./img/projetoyo-gi-oh.png);">
-
-                        <div class="overlay">
-                            <a href="https://esthernascimento.github.io/projeto-clone-yu-gi-oh/">
-                                Cartas Yu-Gi-Oh!
-                            </a>
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-javascript-plain"></i>
+                            <h3>JavaScript</h3>
                         </div>
-
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-react-original-wordmark"></i>
+                            <h3>React Native</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-java-plain-wordmark"></i>
+                            <h3>Java</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-mysql-plain-wordmark"></i>
+                            <h3>MySQL</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-html5-plain-wordmark"></i>
+                            <h3>HTML5</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 mb-4">
+                        <div class="tecnologia-box text-center">
+                            <i class="devicon-css3-plain-wordmark"></i>
+                            <h3>CSS3</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--
-        <section class="projetos" id="projetos">
-            <div class="interface">
 
-                <div class="flex">
-                    
-                    <div class="img-port" style="background-image: url(./img/sorveteria-clodo.png);">
-                      
-
-                        <div class="overlay">
-                            <a href="https://esthernascimento.github.io/SORVETERIA-CLODO/">
-                            Sorveteria do Clodo.
-                            </a>
+        <!-- Sobre -->
+        <section class="sobre py-5" id="sobre">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 text-center">
+                        <div class="img-sobre">
+                            <img src="./img/fotosorriso.jpeg" class="foto-sorriso img-fluid rounded-circle" alt="Esther Sorrindo">
                         </div>
-
                     </div>
-                    <div class="img-port" style="background-image: url(./img/mariopagina.png);">
-
-                        <div class="overlay">
-                            <a href="https://esthernascimento.github.io/SUPER-MARIO-CARDS/">
-                                Cards Super Mario.
-                            </a>
+                    <div class="col-lg-7">
+                        <div class="txt-sobre">
+                            <h2>SOU ESTHER NASCIMENTO <span>E TRANSFORMO IDEIAS EM CÓDIGO!</span></h2>
+                            <p>Sou uma desenvolvedora criativa que une tecnologia, arte e música para transformar ideias em
+                                realidade. Desde que entrei no mundo da programação, venho explorando o front-end para criar
+                                experiências visuais envolventes e funcionais.</p>
+                            <p>Além da programação, minha trajetória passa pela música, administração e criação de
+                                conteúdo. Toco diversos instrumentos, componho e já atuei em publicidades, o que me deu um
+                                olhar versátil e inovador para resolver problemas.</p>
+                            <div class="btn-social mt-4">
+                                <a href="https://www.instagram.com/esthernascimentooficial" class="me-2"><button><i class="bi bi-instagram"></i></button></a>
+                                <a href="https://www.youtube.com/@esthernascimentooficial" class="me-2"><button><i class="bi bi-youtube"></i></button></a>
+                                <a href="https://www.linkedin.com/in/esthernascimentooficial" class="me-2"><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href="https://github.com/esthernascimento"><button><i class="bi bi-github"></i></button></a>
+                            </div>
                         </div>
-
-                    </div>
-                    <div class="img-port" style="background-image: url(./img/projetoyo-gi-oh.png);">
-
-                        <div class="overlay">
-                            <a href="https://esthernascimento.github.io/projeto-clone-yu-gi-oh/">
-                                Cartas Yu-Gi-Oh!
-                            </a>
-                        </div>
-
                     </div>
                 </div>
             </div>
-        </section>-->
+        </section>
 
-        <section class="formulario" id="formulario">
-            <div class="interface">
-                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-
-                <form mathod="post" action="./php/enviar.php" class="card">
-                    <input type="text" name="nome" id="" placeholder="Seu nome:" required>
-
-                    <input type="text" name="email" id="" placeholder="Seu e-mail:" required>
-
-                    <input type="text" name="celular" id="" placeholder="Seu celular:">
-
-                    <textarea name="mensagem" id="" placeholder="Sua mensagem:" required></textarea>
-
-                    <div class="btn-enviar">
-                        <input type="submit" value="ENVIAR">
+        <!-- Projetos -->
+        <section class="projetos py-5" id="projetos">
+            <div class="container">
+                <h2 class="titulo text-center mb-5">MEUS <span>PROJETOS.</span></h2>
+                
+                <!-- Projeto 1 -->
+                <div class="card-projeto mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="img-projeto" style="background-image: url(./img/sorveteria-clodo.png);">
+                                <div class="overlay">
+                                    <a href="https://esthernascimento.github.io/SORVETERIA-CLODO/" target="_blank">
+                                        Ver Projeto
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-projeto">
+                                <h3>Sorveteria do Clodo</h3>
+                                <p>Site para uma sorveteria local, desenvolvido com HTML, CSS e JavaScript. Design responsivo e interface intuitiva para exibição de produtos e sabores.</p>
+                                <div class="tecnologias-projeto">
+                                    <span class="badge bg-success">HTML</span>
+                                    <span class="badge bg-success">CSS</span>
+                                    <span class="badge bg-success">JavaScript</span>
+                                </div>
+                                <div class="links-projeto mt-3">
+                                    <a href="https://esthernascimento.github.io/SORVETERIA-CLODO/" target="_blank" class="btn btn-outline-light me-2">
+                                        <i class="bi bi-eye me-1"></i>Ver Demo
+                                    </a>
+                                    <a href="#" class="btn btn-outline-light">
+                                        <i class="bi bi-github me-1"></i>Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </form>
+                </div>
+                
+                <!-- Projeto 2 -->
+                <div class="card-projeto mb-5">
+                    <div class="row align-items-center flex-md-row-reverse">
+                        <div class="col-md-6">
+                            <div class="img-projeto" style="background-image: url(./img/mariopagina.png);">
+                                <div class="overlay">
+                                    <a href="https://esthernascimento.github.io/SUPER-MARIO-CARDS/" target="_blank">
+                                        Ver Projeto
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-projeto">
+                                <h3>Cards Super Mario</h3>
+                                <p>Coleção de cards dos personagens do universo Super Mario, com design interativo e informações sobre cada personagem.</p>
+                                <div class="tecnologias-projeto">
+                                    <span class="badge bg-success">HTML</span>
+                                    <span class="badge bg-success">CSS</span>
+                                    <span class="badge bg-success">JavaScript</span>
+                                    <span class="badge bg-success">Bootstrap</span>
+                                </div>
+                                <div class="links-projeto mt-3">
+                                    <a href="https://esthernascimento.github.io/SUPER-MARIO-CARDS/" target="_blank" class="btn btn-outline-light me-2">
+                                        <i class="bi bi-eye me-1"></i>Ver Demo
+                                    </a>
+                                    <a href="#" class="btn btn-outline-light">
+                                        <i class="bi bi-github me-1"></i>Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 3 -->
+                <div class="card-projeto">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="img-projeto" style="background-image: url(./img/projetoyo-gi-oh.png);">
+                                <div class="overlay">
+                                    <a href="https://esthernascimento.github.io/projeto-clone-yu-gi-oh/" target="_blank">
+                                        Ver Projeto
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-projeto">
+                                <h3>Cartas Yu-Gi-Oh!</h3>
+                                <p>Clone do sistema de exibição de cartas Yu-Gi-Oh! com filtros e busca. Desenvolvido para praticar manipulação de DOM e consumo de API.</p>
+                                <div class="tecnologias-projeto">
+                                    <span class="badge bg-success">HTML</span>
+                                    <span class="badge bg-success">CSS</span>
+                                    <span class="badge bg-success">JavaScript</span>
+                                    <span class="badge bg-success">API</span>
+                                </div>
+                                <div class="links-projeto mt-3">
+                                    <a href="https://esthernascimento.github.io/projeto-clone-yu-gi-oh/" target="_blank" class="btn btn-outline-light me-2">
+                                        <i class="bi bi-eye me-1"></i>Ver Demo
+                                    </a>
+                                    <a href="#" class="btn btn-outline-light">
+                                        <i class="bi bi-github me-1"></i>Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- Contato -->
+        <section class="contato py-5" id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="titulo text-center mb-4">VAMOS <span>CONECTAR!</span></h2>
+                        <p class="text-center mb-5">Tem um projeto em mente, uma pergunta ou apenas quer dizer olá? Sinta-se à vontade para entrar em contato!</p>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form method="post" action="./php/enviar.php" class="card p-4">
+                                    <h4 class="mb-4">Envie-me uma mensagem</h4>
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">Nome Completo</label>
+                                        <input type="text" class="form-control" name="nome" placeholder="Seu nome" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Endereço de Email</label>
+                                        <input type="email" class="form-control" name="email" placeholder="Seu e-mail" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="mensagem" class="form-label">Sua Mensagem</label>
+                                        <textarea class="form-control" name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+                                    </div>
+                                    <div class="btn-enviar">
+                                        <button type="submit" class="btn btn-primary w-100">ENVIAR MENSAGEM</button>
+                                    </div>
+                                </form>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="detalhes-contato">
+                                    <h4 class="mb-4">Detalhes de Contato</h4>
+                                    <div class="detalhe-item mb-3">
+                                        <i class="bi bi-envelope me-2"></i>
+                                        <span>esthersolzinhacarambola@gmail.com</span>
+                                    </div>
+                                    <div class="detalhe-item mb-3">
+                                        <i class="bi bi-geo-alt me-2"></i>
+                                        <span>São Paulo, Brasil</span>
+                                    </div>
+                                    <div class="detalhe-item mb-4">
+                                        <i class="bi bi-share me-2"></i>
+                                        <span>Encontre-me nas Redes Sociais</span>
+                                    </div>
+                                    
+                                    <div class="btn-social">
+                                        <a href="https://www.instagram.com/esthernascimentooficial" class="me-2"><button><i class="bi bi-instagram"></i></button></a>
+                                        <a href="https://www.youtube.com/@esthernascimentooficial" class="me-2"><button><i class="bi bi-youtube"></i></button></a>
+                                        <a href="https://www.linkedin.com/in/esthernascimentooficial" class="me-2"><button><i class="bi bi-linkedin"></i></button></a>
+                                        <a href="https://github.com/esthernascimento"><button><i class="bi bi-github"></i></button></a>
+                                    </div>
+                                    
+                                    <div class="mt-4">
+                                        <p class="text-center"><strong>Vamos construir algo incrível!</strong></p>
+                                        <p class="text-center">Estou sempre animada para discutir novos projetos e ideias inovadoras. Não hesite em entrar em contato.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="interface">
-        <div class="line-footer">
-            <div class="flex">
-                <div class="logo-footer">
-                    <img src="./img/logodjthee.png" class="djtheelogo" alt="Logo Dj Theé">
+    <footer class="py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="logo-footer">
+                        <img src="./img/logodjthee.png" class="djtheelogo" alt="Logo Dj Theé">
+                    </div>
                 </div>
-
-
-                <div class="btn-social">
-                    <a href="https://www.instagram.com/esthernascimentooficial"><button><i
-                                class="bi bi-instagram"></i></button></a>
-                    <a href="https://www.youtube.com/@esthernascimentooficial""><button><i class=" bi
-                        bi-youtube"></i></button></a>
-                    <a href="https://www.linkedin.com/in/esthernascimentooficial"><button><i
-                                class="bi bi-linkedin"></i></button></a>
-                    <a href="https://github.com/esthernascimento"><button><i class="bi bi-github"></i></button></a>
-
+                <div class="col-md-6 text-md-end">
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/esthernascimentooficial" class="me-2"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.youtube.com/@esthernascimentooficial" class="me-2"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="https://www.linkedin.com/in/esthernascimentooficial" class="me-2"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/esthernascimento"><button><i class="bi bi-github"></i></button></a>
+                    </div>
                 </div>
             </div>
-            <div class="line-footer">
-                <p><i class="bi bi-envelope-heart"><a
-                            href="mailto:esthersolzinhacarambola@gmail.com">esthersolzinhacarambola@gmail.com</a></i>
-                </p>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>
+                        <i class="bi bi-envelope-heart me-2"></i>
+                        <a href="mailto:esthersolzinhacarambola@gmail.com">esthersolzinhacarambola@gmail.com</a>
+                    </p>
+                    <p>Feito com ❤️ por Esther Nascimento</p>
+                </div>
             </div>
-
-
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
